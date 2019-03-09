@@ -73,7 +73,6 @@ void Chat::mouseReleaseEvent(QMouseEvent *event)
 void Chat::mouseMoveEvent(QMouseEvent *event)
 {
 	//若鼠标左键被按下
-  //  qDebug()<<"mouse_press="<<event->globalPos();
 	if (mouse_press)
 	{
 
