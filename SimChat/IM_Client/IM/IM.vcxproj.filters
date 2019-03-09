@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Msg">
+      <UniqueIdentifier>{b40873f1-eb43-4197-af98-da2feb260b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osapi">
+      <UniqueIdentifier>{1dc471e3-0286-42b9-9c9f-b287ac2731b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{82b24814-9ddd-4b85-9c9f-b01612cd0edf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Msg\MsgAddFriend.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="Msg\MsgChat.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="Msg\MsgHead.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="Msg\MsgLogin.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="Msg\MsgReg.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="osapi\Mutex_Linux.cpp">
+      <Filter>osapi</Filter>
+    </ClCompile>
+    <ClCompile Include="osapi\Mutex_Win32.cpp">
+      <Filter>osapi</Filter>
+    </ClCompile>
+    <ClCompile Include="osapi\Semaphore_Linux.cpp">
+      <Filter>osapi</Filter>
+    </ClCompile>
+    <ClCompile Include="osapi\Semaphore_Win32.cpp">
+      <Filter>osapi</Filter>
+    </ClCompile>
+    <ClCompile Include="osapi\Socket.cpp">
+      <Filter>osapi</Filter>
+    </ClCompile>
+    <ClCompile Include="osapi\Thread_Linux.cpp">
+      <Filter>osapi</Filter>
+    </ClCompile>
+    <ClCompile Include="osapi\Thread_Win32.cpp">
+      <Filter>osapi</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\PackageTool.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="IM_Login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moveableframelesswindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="connecting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgLoginResp.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="parseTool.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_waitPackage.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollapseView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollapseViewItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LitterIem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Emotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="socketSendTools.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="socketRecvTools.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMessageBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msgboxWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendMsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgAddFriendResp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterDia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="IM.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="IM_Login.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="moveableframelesswindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="connecting.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MainForm.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CollapseView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CollapseViewItem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LitterIem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Chat.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Emotion.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MyMessageBox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="socketRecvTools.h">
+      <Filter>tools</Filter>
+    </QtMoc>
+    <QtMoc Include="msgboxWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="FriendMsg.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Search.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="socketSendTools.h">
+      <Filter>tools</Filter>
+    </QtMoc>
+    <QtMoc Include="RegisterDia.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="IM.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="IM_Login.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="connecting.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MainForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CollapseView.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CollapseViewItem.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="LitterIem.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Chat.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Emotion.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MyMessageBox.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="msgboxWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="FriendMsg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Search.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="RegisterDia.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Msg\MsgAddFriend.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="Msg\MsgChat.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="Msg\MsgHead.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="Msg\MsgLogin.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="Msg\MsgReg.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="osapi\Mutex.h">
+      <Filter>osapi</Filter>
+    </ClInclude>
+    <ClInclude Include="osapi\osapi.h">
+      <Filter>osapi</Filter>
+    </ClInclude>
+    <ClInclude Include="osapi\Semaphore.h">
+      <Filter>osapi</Filter>
+    </ClInclude>
+    <ClInclude Include="osapi\Socket.h">
+      <Filter>osapi</Filter>
+    </ClInclude>
+    <ClInclude Include="osapi\Thread.h">
+      <Filter>osapi</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\PackageTool.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_IM.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_IM_Login.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_connecting.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Msg_H.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgLoginResp.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="parseTool.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_waitPackage.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MainForm.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CollapseView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CollapseViewItem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgGroupList.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LitterIem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleList.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleItem.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupList.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Emotion.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MyMessageBox.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_msgboxWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgRefreshFriend.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_FriendMsg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgAddFriendResp.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgText.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Search.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgSearch.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgSearchResult.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgAddFriendConfirm.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RegisterDia.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgRegResp.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="osapi\Version.txt">
+      <Filter>osapi</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="rs\img\sf.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\img\check.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\img\top.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\img\keyborad.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\search.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\arrow_d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\arrow_r.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\arrow_r_g.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\back.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qlogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qqicon_p_blue.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qqicon_p_gray.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qqicon_q_blue.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qqicon_q_gray.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qqicon_t_blue.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qqicon_t_gray.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qq_tool_mail.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qq_tool_skin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qq_tool_talk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\qq_tool_zone.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\level.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\color_panle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\mainform_minimize.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\mainform_shutdown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\img\blue70-2.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\qun\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\qun\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\qun\3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\qun\4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\person\1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\person\2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\person\3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\person\4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\person\5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\person\6.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\person\7.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\person\8.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\wether\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\wether\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\media\wether\3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rs\personman.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="rs\IM.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

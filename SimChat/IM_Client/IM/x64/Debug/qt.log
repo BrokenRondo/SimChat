@@ -1,0 +1,4 @@
+rs\IM.qrc|"C:\Users\伍唤宇\Desktop\IM\IM\rs\IM.qrc" -o ".\GeneratedFiles\qrc_IM.cpp" --name IM
+FriendMsg.ui|"C:\Users\伍唤宇\Desktop\IM\IM\FriendMsg.ui" -o ".\GeneratedFiles\ui_FriendMsg.h"
+MainForm.ui|"C:\Users\伍唤宇\Desktop\IM\IM\MainForm.ui" -o ".\GeneratedFiles\ui_MainForm.h"
+MainForm.h|"C:\Users\伍唤宇\Desktop\IM\IM\MainForm.h" -o ".\GeneratedFiles\Debug\moc_MainForm.cpp" "-I.\GeneratedFiles" "-I." "-IC:\Qt\Qt5.10.1\5.10.1\msvc2017_64\include" "-I.\GeneratedFiles\Debug" "-IC:\Qt\Qt5.10.1\5.10.1\msvc2017_64\include\QtCore" "-IC:\Qt\Qt5.10.1\5.10.1\msvc2017_64\include\QtGui" "-IC:\Qt\Qt5.10.1\5.10.1\msvc2017_64\include\QtANGLE" "-IC:\Qt\Qt5.10.1\5.10.1\msvc2017_64\include\QtWidgets" -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB

@@ -1,0 +1,19 @@
+﻿  Chat.cpp
+  CollapseView.cpp
+  CollapseViewItem.cpp
+  Emotion.cpp
+  FriendMsg.cpp
+  moc_IM.cpp
+  moc_IM_Login.cpp
+  qrc_IM.cpp
+  IM.cpp
+  IM_Login.cpp
+  LitterIem.cpp
+  MainForm.cpp
+  MyMessageBox.cpp
+  RegisterDia.cpp
+  Search.cpp
+  connecting.cpp
+  main.cpp
+  msgboxWidget.cpp
+  IM.vcxproj -> E:\Visual Studio Projects\source\repos\IM\x64\Debug\IM.exe
